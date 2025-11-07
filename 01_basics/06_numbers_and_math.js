@@ -20,3 +20,10 @@ console.log(score);
 
 
   /**************Maths*************** */
+  console.log(Math); // Object [Math] {}
+  console.log(Math.abs(-4));//- ve value ve+/
+  console.log(Math.round(4.3));//4
+  console.log(Math.round(4.3));//4
+  console.log(Math.round(4.6));//5
+  
+  
