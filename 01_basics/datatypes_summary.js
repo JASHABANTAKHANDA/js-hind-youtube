@@ -18,6 +18,12 @@ const antherId=Symbol('123')
 console.log(id==antherId);//false
 
 
+
+
+ //*********************************** */
+//Non Primitive or referance type
+/*Catagories==> Array , Object ,Functions */
+
 // const bigNumber = 5455445455777575n
 
 
@@ -41,7 +47,29 @@ console.log(typeof outsideTemp);//object
 
 
 
- //*********************************** */
-//Non Primitive or referance type
-/*Catagories==> Array , Object ,Functions */
+
+//********* How to work memory************* */
+
+//Stack (Prumitive) , Heap (Non-primitive)
+
+let myyoutubename = "hitesh@youtube"
+let antherName = myyoutubename //ref
+antherName = "chai or code"    //new value
+
+console.log(myyoutubename);
+
+console.log(antherName);
+
+// *********************** Heap (Non-primitive)****************** given ref
+let userOne ={
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
 
