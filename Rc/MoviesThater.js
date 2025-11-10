@@ -89,3 +89,4 @@ console.log("Elite Seats Booked:", eliteBooking.bookedSeats);
 console.log("Normal Seats Booked:", normalBooking.bookedSeats);
 console.log("Economy Seats Booked:", economyBooking.bookedSeats);
 console.log("Total Amount to Pay:", totalAmount);
+
